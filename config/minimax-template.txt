@@ -1,0 +1,20 @@
+# Copy this file to .env on the A2141. Never commit the real .env.
+MINIMAX_API_KEY=
+
+# International Open Platform: https://api.minimax.io/v1
+# Mainland China Open Platform: https://api.minimaxi.com/v1
+# Keep the base URL matched to the platform that issued your API key.
+MINIMAX_API_BASE=https://api.minimaxi.com/v1
+MINIMAX_TTS_MODEL=speech-2.8-hd
+
+# User-selected default football voice after local A/B listening.
+MINIMAX_VOICE_ID=Chinese (Mandarin)_Straightforward_Boy
+
+# Fast, energetic default chosen by the user.
+MINIMAX_TTS_SPEED=1.18
+MINIMAX_TTS_VOL=1.0
+MINIMAX_TTS_PITCH=0
+
+# The user selected this voice with a brighter, more energetic delivery.
+MINIMAX_TTS_EMOTION=happy
+MINIMAX_LANGUAGE_BOOST=Chinese
